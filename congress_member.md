@@ -9,7 +9,7 @@ BaseURL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 	 * Operation(Eng) : getMemberCurrStateList	 
 	 * Operation(Kor) : 국회의원 현황 조회	 
 	 */
-	 Fields
+	 @Fields
 	 getMemberCurrStateList
 	 {
 	 	deptCd : '부서코드',
@@ -22,7 +22,7 @@ BaseURL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 		jpgLink : '의원사진 파일 경로'
 	 }
 	 
-	 Record Example
+	 @Record Example
 	 getMemberCurrStateList [] {
 	 	"deptCd":"9770703",
 	 	"num":"2685",
