@@ -1,15 +1,16 @@
 # 국회의원 정보 API
 #### 공식 사이트 : https://goo.gl/BDZpRA
 
+Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
-BaseURL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
+## (1) getMemberCurrStateList
 
 ```js
 	/**
 	 * Operation(Eng) : getMemberCurrStateList	 
 	 * Operation(Kor) : 국회의원 현황 조회	 
 	 */
-	 @Fields
+	 Fields
 	 getMemberCurrStateList
 	 {
 	 	deptCd : '부서코드',
@@ -22,7 +23,7 @@ BaseURL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 		jpgLink : '의원사진 파일 경로'
 	 }
 	 
-	 @Record Example
+	 Record Example
 	 getMemberCurrStateList [] {
 	 	"deptCd":"9770703",
 	 	"num":"2685",
@@ -33,6 +34,5 @@ BaseURL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 	 	"origNm":"경남 창원시성산구",
 	 	"jpgLink":"http://www.assembly.go.kr/photo/9770703.jpg"
 	 }
-	 
 	
 ```
