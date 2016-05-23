@@ -5,7 +5,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (1) getMemberCurrStateList
 
-```
+```js
 	/**
 	 * Operation(Eng) : getMemberCurrStateList	 
 	 * Operation(Kor) : 국회의원 현황 조회	 
@@ -39,7 +39,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (2)getMemberDetailInfoList
 
-```
+```js
 	/**
 	 * Operation(Eng) : getMemberDetailInfoList	 * Operation(Kor) : 국회의원 상세 정보조회
 	 */
@@ -56,7 +56,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (3)getJungDangMemberCurrStateList
 
-```
+```js
 	/**
 	 * Operation(Eng) : getJungDangMemberCurrStateList	 * Operation(Kor) : 소속정당별 국회의원 목록 정보조회
 	 */
@@ -73,7 +73,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (4)getCommMemberCurrStateList
 
-```
+```js
 	/**
 	 * Operation(Eng) : getCommMemberCurrStateList	 * Operation(Kor) : 소속위원회별 국회의원 목록 정보조회
 	 */
@@ -90,7 +90,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (5)getElectionNumberCurrStateList
 
-```
+```js
 	/**
 	 * Operation(Eng) : getElectionNumberCurrStateList	 * Operation(Kor) : 당선횟수별 국회의원 목록 정보조회
 	 */
@@ -107,7 +107,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (6)getLoOrProporMemberCurrStateList
 
-```
+```js
 	/**
 	 * Operation(Eng) : getLoOrProporMemberCurrStateList	 * Operation(Kor) : 당선방법별 국회의원 목록 정보조회
 	 */
@@ -124,7 +124,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (7)getLocalMemberCurrStateList
 
-```
+```js
 	/**
 	 * Operation(Eng) : getLocalMemberCurrStateList	 * Operation(Kor) : 지역별 국회의원 목록 정보조회
 	 */
@@ -141,7 +141,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (8)getMemberNameInfoList
 
-```
+```js
 	/**
 	 * Operation(Eng) : getMemberNameInfoList
 	 * Operation(Kor) : 국회의원 이름 검색
@@ -159,7 +159,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (9)getPolySearch
 
-```
+```js
 	/**
 	 * Operation(Eng) : getPolySearch
 	 * Operation(Kor) : 정당 검색
@@ -177,7 +177,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (10)getLocalSearch
 
-```
+```js
 	/**
 	 * Operation(Eng) : getLocalSearch
 	 * Operation(Kor) : 지역 검색
@@ -195,7 +195,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (11)getMemberSchedule
 
-```
+```js
 	/**
 	 * Operation(Eng) : getMemberSchedule
 	 * Operation(Kor) : 의사 일정 정보조회
@@ -213,7 +213,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (12)getCommitAction
 
-```
+```js
 	/**
 	 * Operation(Eng) : getCommitAction
 	 * Operation(Kor) : 상임위 활동 정보조회
@@ -231,7 +231,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (13)getMemberRoomNotice
 
-```
+```js
 	/**
 	 * Operation(Eng) : getMemberRoomNotice
 	 * Operation(Kor) : 의원실 알림 정보조회
@@ -249,7 +249,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (14)getMemberRoomEvent
 
-```
+```js
 	/**
 	 * Operation(Eng) : getMemberRoomEvent
 	 * Operation(Kor) : 의원실 행사 정보조회
@@ -267,7 +267,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (15)getMemberRoomRecruitment
 
-```
+```js
 	/**
 	 * Operation(Eng) : getMemberRoomRecruitment	 * Operation(Kor) : 의원실 채용 정보조회
 	 */
@@ -284,7 +284,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (16)getPressAticle
 
-```
+```js
 	/**
 	 * Operation(Eng) : getPressAticle
 	 * Operation(Kor) : 언론기사 정보조회
@@ -302,7 +302,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (17)getFieldSketch
 
-```
+```js
 	/**
 	 * Operation(Eng) : getFieldSketch
 	 * Operation(Kor) : 현장스케치 정보조회
@@ -320,7 +320,7 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 
 ## (18)getMemberAuthor
 
-```
+```js
 	/**
 	 * Operation(Eng) : getMemberAuthor
 	 * Operation(Kor) : 의원저서 정보조회
