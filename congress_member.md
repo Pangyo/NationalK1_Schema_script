@@ -43,6 +43,9 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 	/**
 	 * Operation(Eng) : getMemberDetailInfoList
 	 * Operation(Kor) : 국회의원 상세 정보조회
+	 * Params
+	 * dept_cd(string) : 부서코드
+	 * num(string) : 식별코드
 	 */
 	 Fields
 	 {
@@ -98,6 +101,12 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 	 Fields
 	 {
 	 	deptCd : '부서코드',
+	 	empNm : '부서코드',
+	 	hjNm : '부서코드',
+	 	engNm : '부서코드',
+	 	reeleGbnNm : '부서코드',
+	 	origNm : '부서코드',
+	 	jpgLink : '부서코드',
 	 }
 	 
 	 Record Example
@@ -105,6 +114,10 @@ Base URL : http://apis.data.go.kr/9710000/NationalAssemblyInfoService/
 	 	"deptCd":"9770703",
 	 }
 ```
+
+deptCdempNmhjNmengNmreeleGbnNmorigNmjpgLink
+부서코드한글이름한자이름영문이름당선횟수선거구의원사진파일 다운로드 경로
+9770703강기윤姜起潤KANG Gi Yun초선경남 창원시성산구http://www.asssembly.go.kr/photo/9770703.jpg
 
 ## (4)getCommMemberCurrStateList
 
